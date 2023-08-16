@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* .file-upload {
+    position: relative;
+    text-align: center;
+} */
+
+.custom-label {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #935309;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.custom-label:hover {
+    background-color: #e4c933;
+}
+
+.inputfile {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    z-index: -1;
+}
+
+.icon {
+    margin-right: 5px;
+}
